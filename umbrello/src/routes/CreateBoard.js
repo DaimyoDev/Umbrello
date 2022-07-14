@@ -6,7 +6,6 @@ function CreateBoard() {
   return (
     <div>
       <Navbar />
-      <h1>CreateBoard</h1>
       <AddBoard />
     </div>
   );
