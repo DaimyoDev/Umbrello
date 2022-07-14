@@ -9,6 +9,7 @@ import { Provider } from "react-redux";
 import Boards from "./routes/Boards";
 import Home from "./routes/Home";
 import CreateBoard from "./routes/CreateBoard";
+import EditBoard from "./routes/EditBoard";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -20,7 +21,7 @@ root.render(
       <Routes>
         <Route
           exact
-          path="boards"
+          path="/boards"
           element={
             <Provider store={store}>
               <Boards />
@@ -28,7 +29,16 @@ root.render(
           }
         />
         <Route exact path="/" element={<Home />} />
-        <Route exact path="/createboards" element={<CreateBoard />} />
+        <Route exact path="createboards" element={<CreateBoard />} />
+        <Route
+          exact
+          path="/boards/editboard/:id"
+          element={
+            <Provider store={store}>
+              <EditBoard />
+            </Provider>
+          }
+        />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

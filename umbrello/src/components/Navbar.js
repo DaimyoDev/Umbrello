@@ -12,7 +12,7 @@ function Navbar() {
         <li className="mr-16 mt-2 font-raleway font-light">
           <Link
             to="/"
-            className="bg-white px-8 py-2 rounded-xl hover:bg-black hover:text-white transition-all duration-500"
+            className="bg-white px-8 py-2 rounded-xl hover:bg-black hover:text-white transition-all duration-500 shadow-slate-300 shadow-lg"
           >
             Home
           </Link>
@@ -20,7 +20,7 @@ function Navbar() {
         <li className="mr-16 mt-2 font-raleway font-light">
           <Link
             to="/boards"
-            className="bg-white px-8 py-2 rounded-xl hover:bg-black hover:text-white transition-all duration-500"
+            className="bg-white px-8 py-2 rounded-xl hover:bg-black hover:text-white transition-all duration-500 shadow-slate-300 shadow-lg"
           >
             Boards
           </Link>
@@ -28,7 +28,7 @@ function Navbar() {
         <li className="mr-16 mt-2 font-raleway font-light">
           <Link
             to="/createboards"
-            className="bg-white px-8 py-2 rounded-xl hover:bg-black hover:text-white transition-all duration-500"
+            className="bg-white px-8 py-2 rounded-xl hover:bg-black hover:text-white transition-all duration-500 shadow-slate-300 shadow-lg"
           >
             Create Boards
           </Link>

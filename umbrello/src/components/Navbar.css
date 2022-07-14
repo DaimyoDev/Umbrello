@@ -1,6 +1,6 @@
 .pulsing-animation {
   animation-name: pulsing;
-  animation-duration: 60s;
+  animation-duration: 30s;
   animation-iteration-count: infinite;
 }
 
