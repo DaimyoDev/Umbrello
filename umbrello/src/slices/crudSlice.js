@@ -2,7 +2,12 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = [
   { id: 1, name: "FirstBoard", description: "My first board" },
-  { id: 2, name: "SecondBoard", description: "My second board" },
+  {
+    id: 2,
+    name: "SecondBoard",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
 ];
 const crudSlice = createSlice({
   name: "boards",
